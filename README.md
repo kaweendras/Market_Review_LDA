@@ -38,7 +38,7 @@ The interactive pipeline will guide you through:
 
 The system generates comprehensive topic distribution visualizations showing how topics are distributed across your review dataset:
 
-![Topic Distribution](topic_distribution_chart.png)
+![Topic Distribution](https://github.com/kaweendras/Market_Review_LDA/blob/main/sample_results/topic_distribution_chart.png?raw=true)
 
 *Interactive bar chart showing the prevalence of each discovered topic*
 
@@ -46,7 +46,7 @@ The system generates comprehensive topic distribution visualizations showing how
 
 Advanced interactive visualization using pyLDAvis for exploring topic relationships and word associations:
 
-![LDA Visualization](lda_visualization.png)
+![LDA Visualization](https://github.com/kaweendras/Market_Review_LDA/blob/main/sample_results/lda_visualization.png?raw=true)
 
 *Interactive LDA visualization showing topic clusters and word relevance*
 
@@ -54,7 +54,7 @@ Advanced interactive visualization using pyLDAvis for exploring topic relationsh
 
 Beautiful word clouds for each discovered topic, highlighting the most important terms:
 
-![Word Clouds](topic_wordclouds.png)
+![Word Clouds](https://github.com/kaweendras/Market_Review_LDA/blob/main/sample_results/topic_wordclouds.png?raw=true)
 
 *Word clouds for each topic showing key terms and their relative importance*
 
@@ -62,7 +62,7 @@ Beautiful word clouds for each discovered topic, highlighting the most important
 
 Comprehensive analysis document with actionable marketing recommendations:
 
-![Marketing Report](marketing_insights_report.png)
+![Marketing Report](https://github.com/kaweendras/Market_Review_LDA/blob/main/sample_results/marketing_insights_report.png?raw=true)
 
 *Detailed report with topic analysis and strategic recommendations*
 
@@ -204,6 +204,7 @@ def process_reviews_pipeline(csv_path, output_dir, top_words=10, verbose=True):
     """
 ```
 
+## 🤝 Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -215,7 +216,7 @@ def process_reviews_pipeline(csv_path, output_dir, top_words=10, verbose=True):
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Acknowledgments
+## 🙏 Acknowledgments
 
 - Built with [Gensim](https://radimrehurek.com/gensim/) for LDA modeling
 - Visualizations powered by [pyLDAvis](https://github.com/bmabey/pyLDAvis)
@@ -224,7 +225,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
+## 👨‍💻 Author
 
-***- kaweendras***
+**kaweendras**
 
 ---
+
+**Ready to discover hidden insights in your customer reviews?** Run `python main.py` and let the analysis begin! 🚀
