@@ -1,0 +1,1101 @@
+{
+  "topic_analysis": {
+    "topic_1": {
+      "keywords": [
+        "camera",
+        "battery",
+        "life",
+        "good"
+      ],
+      "review_count": 39,
+      "percentage": 26.2,
+      "business_category": "Product Performance - Battery",
+      "action_priority": "High"
+    },
+    "topic_2": {
+      "keywords": [
+        "camera",
+        "battery",
+        "product",
+        "quality"
+      ],
+      "review_count": 73,
+      "percentage": 49.0,
+      "business_category": "Product Performance - Battery",
+      "action_priority": "High"
+    },
+    "topic_3": {
+      "keywords": [
+        "battery",
+        "customer",
+        "camera",
+        "service"
+      ],
+      "review_count": 37,
+      "percentage": 24.8,
+      "business_category": "Product Performance - Battery",
+      "action_priority": "Medium"
+    }
+  },
+  "review_classification": [
+    {
+      "review_id": 1,
+      "review_text": "The battery life is terrible, dies within 2 hours of use. Very disappointed.",
+      "dominant_topic": 1,
+      "topic_probability": 0.9369999766349792,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 2,
+      "review_text": "Amazing camera quality! Takes stunning photos even in low light. Love it!",
+      "dominant_topic": 2,
+      "topic_probability": 0.9629999995231628,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 3,
+      "review_text": "Customer service was unhelpful when I had issues. Took forever to get response.",
+      "dominant_topic": 3,
+      "topic_probability": 0.9459999799728394,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 4,
+      "review_text": "Great value for money. Battery lasts all day and camera is decent.",
+      "dominant_topic": 1,
+      "topic_probability": 0.6439999938011169,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 5,
+      "review_text": "Shipping was super fast, arrived next day. Product quality is excellent.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9629999995231628,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 6,
+      "review_text": "The camera features are outstanding. Video recording is crystal clear.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9390000104904175,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 7,
+      "review_text": "Battery performance is poor. Needs constant charging throughout the day.",
+      "dominant_topic": 1,
+      "topic_probability": 0.9369999766349792,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 8,
+      "review_text": "Customer support team was very helpful and resolved my issue quickly.",
+      "dominant_topic": 3,
+      "topic_probability": 0.9459999799728394,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 9,
+      "review_text": "Expensive but worth it. The camera and battery life exceeded expectations.",
+      "dominant_topic": 1,
+      "topic_probability": 0.9350000023841858,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 10,
+      "review_text": "Delivery was delayed by a week. Product is okay but packaging was damaged.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9629999995231628,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 11,
+      "review_text": "The camera app is intuitive and easy to use. Battery life is acceptable.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9570000171661377,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 12,
+      "review_text": "Poor customer service experience. Staff seemed uninterested in helping.",
+      "dominant_topic": 3,
+      "topic_probability": 0.9100000262260437,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 13,
+      "review_text": "Fast shipping and great packaging. The camera quality is phenomenal.",
+      "dominant_topic": 2,
+      "topic_probability": 0.7310000061988831,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 14,
+      "review_text": "Battery drains too quickly during video calls. Otherwise decent phone.",
+      "dominant_topic": 3,
+      "topic_probability": 0.9380000233650208,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 15,
+      "review_text": "Overpriced for what you get. Battery life and camera are just average.",
+      "dominant_topic": 1,
+      "topic_probability": 0.9259999990463257,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 16,
+      "review_text": "The camera's night mode is incredible. Battery easily lasts a full day.",
+      "dominant_topic": 1,
+      "topic_probability": 0.9570000171661377,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 17,
+      "review_text": "Shipping took too long but the product quality makes up for it.",
+      "dominant_topic": 2,
+      "topic_probability": 0.949999988079071,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 18,
+      "review_text": "Customer service response time needs improvement. Phone is good though.",
+      "dominant_topic": 2,
+      "topic_probability": 0.5289999842643738,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 19,
+      "review_text": "Best camera I've used on a phone. Battery life is surprisingly good too.",
+      "dominant_topic": 1,
+      "topic_probability": 0.9520000219345093,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 20,
+      "review_text": "The battery overheats with heavy use. Camera is good but not great.",
+      "dominant_topic": 1,
+      "topic_probability": 0.8100000023841858,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 21,
+      "review_text": "Very satisfied with the quick delivery and the camera's performance.",
+      "dominant_topic": 1,
+      "topic_probability": 0.9240000247955322,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 22,
+      "review_text": "Customer support was rude and unprofessional. Disappointed with the service.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9580000042915344,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 23,
+      "review_text": "Battery life is decent but could be better. Camera quality is top-notch.",
+      "dominant_topic": 3,
+      "topic_probability": 0.9520000219345093,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 24,
+      "review_text": "Fast shipping and the camera features are impressive. Battery life is okay.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9679999947547913,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 25,
+      "review_text": "The camera lens scratched easily. Battery life is mediocre at best.",
+      "dominant_topic": 1,
+      "topic_probability": 0.9459999799728394,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 26,
+      "review_text": "Excellent customer service experience. They went above and beyond to help.",
+      "dominant_topic": 1,
+      "topic_probability": 0.4970000088214874,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 27,
+      "review_text": "Battery lasts all day with moderate use. Camera quality is very good.",
+      "dominant_topic": 1,
+      "topic_probability": 0.9440000057220459,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 28,
+      "review_text": "Shipping was delayed but the product quality is excellent. Camera is great.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9629999995231628,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 29,
+      "review_text": "The camera takes amazing photos but the battery life is subpar.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9629999995231628,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 30,
+      "review_text": "Customer service was very responsive and helpful. Overall a good experience.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9629999995231628,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 31,
+      "review_text": "Battery life is disappointing. Camera quality is average for the price.",
+      "dominant_topic": 3,
+      "topic_probability": 0.9449999928474426,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 32,
+      "review_text": "Fast delivery and the camera features are outstanding. Battery life is good.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9670000076293945,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 33,
+      "review_text": "The camera app crashes frequently. Battery life is acceptable.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9580000042915344,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 34,
+      "review_text": "Great customer service. They resolved my issue quickly and professionally.",
+      "dominant_topic": 3,
+      "topic_probability": 0.9390000104904175,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 35,
+      "review_text": "Battery performance is poor, drains quickly. Camera quality is decent.",
+      "dominant_topic": 3,
+      "topic_probability": 0.9520000219345093,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 36,
+      "review_text": "Shipping was quick and the product quality is excellent. Camera is fantastic.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9629999995231628,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 37,
+      "review_text": "The camera quality is amazing but the battery life is lacking.",
+      "dominant_topic": 2,
+      "topic_probability": 0.949999988079071,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 38,
+      "review_text": "Customer support was unhelpful and slow to respond. Disappointed overall.",
+      "dominant_topic": 2,
+      "topic_probability": 0.949999988079071,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 39,
+      "review_text": "Battery lasts all day with heavy use. Camera quality is superb.",
+      "dominant_topic": 1,
+      "topic_probability": 0.9440000057220459,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 40,
+      "review_text": "Fast shipping and great packaging. The camera features are impressive.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9629999995231628,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 41,
+      "review_text": "The battery drains too fast with regular use. Camera is good but not great.",
+      "dominant_topic": 3,
+      "topic_probability": 0.531000018119812,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 42,
+      "review_text": "Excellent customer service. They were very attentive and resolved my issue.",
+      "dominant_topic": 3,
+      "topic_probability": 0.7379999756813049,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 43,
+      "review_text": "Battery life is decent but could be improved. Camera quality is top-notch.",
+      "dominant_topic": 3,
+      "topic_probability": 0.9449999928474426,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 44,
+      "review_text": "Shipping was delayed but the product quality is excellent. Camera is great.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9629999995231628,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 45,
+      "review_text": "The camera takes stunning photos but the battery life is subpar.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9629999995231628,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 46,
+      "review_text": "Customer service was very responsive and helpful. Overall a good experience.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9629999995231628,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 47,
+      "review_text": "Battery life is disappointing. Camera quality is average for the price.",
+      "dominant_topic": 3,
+      "topic_probability": 0.9449999928474426,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 48,
+      "review_text": "Fast delivery and the camera features are outstanding. Battery life is good.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9670000076293945,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 49,
+      "review_text": "The camera app crashes frequently. Battery life is acceptable.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9580000042915344,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 50,
+      "review_text": "Great battery life that lasts two days. Camera could be better though.",
+      "dominant_topic": 3,
+      "topic_probability": 0.9539999961853027,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 51,
+      "review_text": "Product arrived damaged. Customer service was not helpful at all.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9580000042915344,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 52,
+      "review_text": "The camera stabilization is amazing for videos. Battery life is decent.",
+      "dominant_topic": 3,
+      "topic_probability": 0.9359999895095825,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 53,
+      "review_text": "Shipping was delayed by three days. Product works well nonetheless.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9580000042915344,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 54,
+      "review_text": "Poor build quality, but the camera sensors are excellent.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9390000104904175,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 55,
+      "review_text": "Battery life exceeds expectations. Camera is just average though.",
+      "dominant_topic": 1,
+      "topic_probability": 0.7599999904632568,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 56,
+      "review_text": "Customer service was exceptional when my order had issues.",
+      "dominant_topic": 3,
+      "topic_probability": 0.9110000133514404,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 57,
+      "review_text": "The camera zoom feature is incredible. Battery drains quickly when using it.",
+      "dominant_topic": 3,
+      "topic_probability": 0.40400001406669617,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 58,
+      "review_text": "Fast delivery but the packaging was inadequate. Product undamaged though.",
+      "dominant_topic": 2,
+      "topic_probability": 0.949999988079071,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 59,
+      "review_text": "Battery life is impressive for such a powerful device. Camera is good too.",
+      "dominant_topic": 2,
+      "topic_probability": 0.949999988079071,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 60,
+      "review_text": "The phone overheats during gaming. Camera and battery are decent.",
+      "dominant_topic": 1,
+      "topic_probability": 0.9259999990463257,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 61,
+      "review_text": "Amazing value for the price. Camera quality exceeds expectations.",
+      "dominant_topic": 1,
+      "topic_probability": 0.9440000057220459,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 62,
+      "review_text": "Customer support never responded to my emails. Product is fine though.",
+      "dominant_topic": 2,
+      "topic_probability": 0.949999988079071,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 63,
+      "review_text": "Battery lasts a full day of heavy use. Camera is excellent in daylight.",
+      "dominant_topic": 1,
+      "topic_probability": 0.9520000219345093,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 64,
+      "review_text": "Shipping was lightning fast. Very happy with the camera quality.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9390000104904175,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 65,
+      "review_text": "The camera software needs improvement. Battery life is excellent.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9629999995231628,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 66,
+      "review_text": "Worst customer service I've experienced. Product is actually good.",
+      "dominant_topic": 2,
+      "topic_probability": 0.621999979019165,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 67,
+      "review_text": "Battery performance deteriorated after a month. Camera still works great.",
+      "dominant_topic": 3,
+      "topic_probability": 0.7099999785423279,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 68,
+      "review_text": "Arrived earlier than expected. Camera features are worth the price alone.",
+      "dominant_topic": 2,
+      "topic_probability": 0.949999988079071,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 69,
+      "review_text": "The battery charging is too slow. Camera quality makes up for it.",
+      "dominant_topic": 1,
+      "topic_probability": 0.921999990940094,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 70,
+      "review_text": "Customer service team was knowledgeable and friendly. Great experience.",
+      "dominant_topic": 3,
+      "topic_probability": 0.9269999861717224,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 71,
+      "review_text": "Battery heats up while charging. Camera quality is outstanding though.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9580000042915344,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 72,
+      "review_text": "Shipping took two weeks. Product is fantastic once it arrived.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9580000042915344,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 73,
+      "review_text": "The camera low-light performance is excellent. Battery life is average.",
+      "dominant_topic": 1,
+      "topic_probability": 0.9359999895095825,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 74,
+      "review_text": "Very responsive customer support. They replaced my defective unit quickly.",
+      "dominant_topic": 3,
+      "topic_probability": 0.5849999785423279,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 75,
+      "review_text": "Battery life is just as advertised. Camera exceeds expectations.",
+      "dominant_topic": 1,
+      "topic_probability": 0.9369999766349792,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 76,
+      "review_text": "Package arrived with minor damage. Product works perfectly fine.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9390000104904175,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 77,
+      "review_text": "The camera color accuracy is impressive. Battery drains quickly though.",
+      "dominant_topic": 3,
+      "topic_probability": 0.5,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 78,
+      "review_text": "Terrible customer service experience. Product is mediocre at best.",
+      "dominant_topic": 1,
+      "topic_probability": 0.4449999928474426,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 79,
+      "review_text": "Battery lasts longer than any phone I've owned. Camera is decent.",
+      "dominant_topic": 1,
+      "topic_probability": 0.9369999766349792,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 80,
+      "review_text": "Fast shipping and excellent packaging. Camera quality is superb.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9580000042915344,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 81,
+      "review_text": "The camera app interface is confusing. Battery life is great though.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9580000042915344,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 82,
+      "review_text": "Customer service was patient explaining features. Very satisfied.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9390000104904175,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 83,
+      "review_text": "Battery life diminishes in cold weather. Camera works flawlessly.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9390000104904175,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 84,
+      "review_text": "Received wrong item initially but company fixed it quickly. Good camera.",
+      "dominant_topic": 1,
+      "topic_probability": 0.8830000162124634,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 85,
+      "review_text": "The battery optimization is excellent. Camera could use improvements.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9570000171661377,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 86,
+      "review_text": "Customer support was available 24/7. Helped resolve my issue immediately.",
+      "dominant_topic": 3,
+      "topic_probability": 0.8840000033378601,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 87,
+      "review_text": "Battery indicator is inaccurate. Camera quality is impressive though.",
+      "dominant_topic": 2,
+      "topic_probability": 0.949999988079071,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 88,
+      "review_text": "Delivery was on time. Product exceeds expectations especially the camera.",
+      "dominant_topic": 1,
+      "topic_probability": 0.6949999928474426,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 89,
+      "review_text": "The camera night mode is revolutionary. Battery life is acceptable.",
+      "dominant_topic": 3,
+      "topic_probability": 0.9359999895095825,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 90,
+      "review_text": "Poor online support but great phone line service. Product works well.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9670000076293945,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 91,
+      "review_text": "Battery capacity is smaller than advertised. Camera features are innovative.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9390000104904175,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 92,
+      "review_text": "Packaging was eco-friendly. Camera and battery performance are solid.",
+      "dominant_topic": 1,
+      "topic_probability": 0.5460000038146973,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 93,
+      "review_text": "The camera lens gets smudged easily. Battery life is phenomenal.",
+      "dominant_topic": 1,
+      "topic_probability": 0.9459999799728394,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 94,
+      "review_text": "Customer service response time was quick. Very professional team.",
+      "dominant_topic": 3,
+      "topic_probability": 0.5889999866485596,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 95,
+      "review_text": "Battery lasts about 6 hours of screen time. Camera is top of the line.",
+      "dominant_topic": 1,
+      "topic_probability": 0.9259999990463257,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 96,
+      "review_text": "Shipping was expensive but worth it. Product quality is excellent.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9580000042915344,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 97,
+      "review_text": "The camera portrait mode is stunning. Battery life is disappointing.",
+      "dominant_topic": 3,
+      "topic_probability": 0.9359999895095825,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 98,
+      "review_text": "Rude customer service representative. Product works fine though.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9629999995231628,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 99,
+      "review_text": "Battery charges really quickly. Camera performance is just average.",
+      "dominant_topic": 1,
+      "topic_probability": 0.9259999990463257,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 100,
+      "review_text": "Product arrived in perfect condition. Camera quality is exceptional.",
+      "dominant_topic": 2,
+      "topic_probability": 0.7269999980926514,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 101,
+      "review_text": "The battery percentage drops suddenly. Camera is reliable though.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9210000038146973,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 102,
+      "review_text": "Customer service offered helpful troubleshooting. Great experience.",
+      "dominant_topic": 3,
+      "topic_probability": 0.9259999990463257,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 103,
+      "review_text": "Battery performance in gaming is excellent. Camera is mediocre.",
+      "dominant_topic": 1,
+      "topic_probability": 0.9240000247955322,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 104,
+      "review_text": "Shipping was free and fast. Camera features are comprehensive.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9390000104904175,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 105,
+      "review_text": "The camera struggles in very bright light. Battery life is impressive.",
+      "dominant_topic": 2,
+      "topic_probability": 0.949999988079071,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 106,
+      "review_text": "Customer support went above and beyond. Very satisfied customer.",
+      "dominant_topic": 1,
+      "topic_probability": 0.597000002861023,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 107,
+      "review_text": "Battery swelled after six months. Camera still works perfectly.",
+      "dominant_topic": 2,
+      "topic_probability": 0.5370000004768372,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 108,
+      "review_text": "Delivery person was unprofessional. Product itself is excellent.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9390000104904175,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 109,
+      "review_text": "The camera zoom is incredible for the price point. Battery is adequate.",
+      "dominant_topic": 1,
+      "topic_probability": 0.9089999794960022,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 110,
+      "review_text": "Customer service ignored my warranty claim. Product was great initially.",
+      "dominant_topic": 3,
+      "topic_probability": 0.6179999709129333,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 111,
+      "review_text": "Battery life is consistent day to day. Camera quality is exceptional.",
+      "dominant_topic": 1,
+      "topic_probability": 0.4959999918937683,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 112,
+      "review_text": "Packaging was minimal and sustainable. Product works as advertised.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9390000104904175,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 113,
+      "review_text": "The camera software crashes occasionally. Battery life is reliable.",
+      "dominant_topic": 2,
+      "topic_probability": 0.949999988079071,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 114,
+      "review_text": "Technical support was knowledgeable. Solved my issue in minutes.",
+      "dominant_topic": 3,
+      "topic_probability": 0.8379999995231628,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 115,
+      "review_text": "Battery life is better than competitors. Camera is industry standard.",
+      "dominant_topic": 3,
+      "topic_probability": 0.9070000052452087,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 116,
+      "review_text": "Arrived with scratches on the screen. Camera and battery work fine.",
+      "dominant_topic": 2,
+      "topic_probability": 0.949999988079071,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 117,
+      "review_text": "The camera macro mode is detailed. Battery drains faster when using it.",
+      "dominant_topic": 3,
+      "topic_probability": 0.9089999794960022,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 118,
+      "review_text": "Customer service response was automated and unhelpful. Product is decent.",
+      "dominant_topic": 3,
+      "topic_probability": 0.8019999861717224,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 119,
+      "review_text": "Battery saver mode extends life significantly. Camera quality suffers though.",
+      "dominant_topic": 2,
+      "topic_probability": 0.5640000104904175,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 120,
+      "review_text": "Shipping tracking was inaccurate. Product quality is excellent.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9390000104904175,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 121,
+      "review_text": "The camera wide-angle lens is distorted. Battery life is impressive.",
+      "dominant_topic": 1,
+      "topic_probability": 0.5849999785423279,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 122,
+      "review_text": "Customer service refunded without hassle. Great company to deal with.",
+      "dominant_topic": 3,
+      "topic_probability": 0.8849999904632568,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 123,
+      "review_text": "Battery optimization software needs work. Camera is perfect though.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9580000042915344,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 124,
+      "review_text": "Delivery was ahead of schedule. Camera features exceed expectations.",
+      "dominant_topic": 2,
+      "topic_probability": 0.550000011920929,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 125,
+      "review_text": "The camera front-facing flash is too bright. Battery life is very good.",
+      "dominant_topic": 1,
+      "topic_probability": 0.9079999923706055,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 126,
+      "review_text": "Difficult return process. Customer service was frustrating to deal with.",
+      "dominant_topic": 3,
+      "topic_probability": 0.8399999737739563,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 127,
+      "review_text": "Battery still at 80% after a full day. Camera is surprisingly good.",
+      "dominant_topic": 1,
+      "topic_probability": 0.8199999928474426,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 128,
+      "review_text": "Product came with all accessories as promised. Camera quality is superior.",
+      "dominant_topic": 2,
+      "topic_probability": 0.921999990940094,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 129,
+      "review_text": "The camera has too many unnecessary features. Battery life is excellent.",
+      "dominant_topic": 2,
+      "topic_probability": 0.949999988079071,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 130,
+      "review_text": "Customer service speaks too fast. Had trouble understanding them.",
+      "dominant_topic": 3,
+      "topic_probability": 0.878000020980835,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 131,
+      "review_text": "Battery shows wear after one year. Camera quality remains consistent.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9210000038146973,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 132,
+      "review_text": "Shipping packaging protected the product well. Very satisfied.",
+      "dominant_topic": 2,
+      "topic_probability": 0.949999988079071,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 133,
+      "review_text": "The camera underwater mode is amazing. Battery drains quickly underwater.",
+      "dominant_topic": 3,
+      "topic_probability": 0.9369999766349792,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 134,
+      "review_text": "Customer support chat was more helpful than phone support. Good product.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9629999995231628,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 135,
+      "review_text": "Battery life exceeds manufacturer claims. Camera is just adequate.",
+      "dominant_topic": 1,
+      "topic_probability": 0.9079999923706055,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 136,
+      "review_text": "Product arrived with foreign language manual. Works great though.",
+      "dominant_topic": 2,
+      "topic_probability": 0.949999988079071,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 137,
+      "review_text": "The camera AI scene detection is impressive. Battery life is average.",
+      "dominant_topic": 1,
+      "topic_probability": 0.5789999961853027,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 138,
+      "review_text": "Customer service transferred me seven times. Never resolved my issue.",
+      "dominant_topic": 3,
+      "topic_probability": 0.7590000033378601,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 139,
+      "review_text": "Battery charges from 0-100% in just 30 minutes. Camera is decent.",
+      "dominant_topic": 3,
+      "topic_probability": 0.8809999823570251,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 140,
+      "review_text": "Received a discount for delayed shipping. Camera quality is worth the wait.",
+      "dominant_topic": 2,
+      "topic_probability": 0.949999988079071,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 141,
+      "review_text": "The camera color profile is too saturated. Battery life is fantastic.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9390000104904175,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 142,
+      "review_text": "Customer service sent replacement parts quickly. Great experience.",
+      "dominant_topic": 3,
+      "topic_probability": 0.9269999861717224,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 143,
+      "review_text": "Battery capacity diminished after firmware update. Camera improved though.",
+      "dominant_topic": 2,
+      "topic_probability": 0.9210000038146973,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 144,
+      "review_text": "Shipping box was enormous for such a small product. Works well though.",
+      "dominant_topic": 2,
+      "topic_probability": 0.949999988079071,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 145,
+      "review_text": "The camera facial recognition is accurate. Battery life is satisfactory.",
+      "dominant_topic": 1,
+      "topic_probability": 0.8809999823570251,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 146,
+      "review_text": "Customer service hours are inconvenient. Product itself is excellent.",
+      "dominant_topic": 2,
+      "topic_probability": 0.949999988079071,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 147,
+      "review_text": "Battery anxiety is a thing of the past. Camera could use improvement.",
+      "dominant_topic": 2,
+      "topic_probability": 0.949999988079071,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 148,
+      "review_text": "Delivery person left package in the rain. Fortunately it was well wrapped.",
+      "dominant_topic": 2,
+      "topic_probability": 0.890999972820282,
+      "business_category": "Product Performance - Battery"
+    },
+    {
+      "review_id": 149,
+      "review_text": "The camera quality-to-price ratio is unbeatable. Battery life is good too.",
+      "dominant_topic": 1,
+      "topic_probability": 0.9079999923706055,
+      "business_category": "Product Performance - Battery"
+    }
+  ],
+  "recommendations": [
+    {
+      "topic": "topic_1",
+      "category": "Product Performance - Battery",
+      "action": "Improve battery performance or highlight battery features in marketing",
+      "priority": "High",
+      "impact": "26.2% of reviews mention this"
+    },
+    {
+      "topic": "topic_2",
+      "category": "Product Performance - Battery",
+      "action": "Improve battery performance or highlight battery features in marketing",
+      "priority": "High",
+      "impact": "49.0% of reviews mention this"
+    }
+  ]
+}
