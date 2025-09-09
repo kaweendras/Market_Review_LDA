@@ -63,7 +63,7 @@ Beautiful word clouds for each discovered topic, highlighting the most important
 
 Comprehensive analysis document with actionable marketing recommendations:
 
-![Marketing Report](https://github.com/kaweendras/Market_Review_LDA/blob/main/sample_results/marketing_insights_report.png?raw=true)
+![Marketing Report](https://github.com/kaweendras/Market_Review_LDA/blob/main/sample_results/marketing_report.md)
 
 *Detailed report with topic analysis and strategic recommendations*
 
