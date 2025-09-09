@@ -1,4 +1,5 @@
 import re
+import pandas as pd
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
@@ -43,28 +44,12 @@ print("\n" + "="*60)
 print("PROCESSING ALL SAMPLE REVIEWS")
 print("="*60)
 
-sample_reviews = [
-        "The battery life is terrible, dies within 2 hours of use. Very disappointed.",
-        "Amazing camera quality! Takes stunning photos even in low light. Love it!",
-        "Customer service was unhelpful when I had issues. Took forever to get response.",
-        "Great value for money. Battery lasts all day and camera is decent.",
-        "Shipping was super fast, arrived next day. Product quality is excellent.",
-        "The camera features are outstanding. Video recording is crystal clear.",
-        "Battery performance is poor. Needs constant charging throughout the day.",
-        "Customer support team was very helpful and resolved my issue quickly.",
-        "Expensive but worth it. The camera and battery life exceeded expectations.",
-        "Delivery was delayed by a week. Product is okay but packaging was damaged.",
-        "The camera app is intuitive and easy to use. Battery life is acceptable.",
-        "Poor customer service experience. Staff seemed uninterested in helping.",
-        "Fast shipping and great packaging. The camera quality is phenomenal.",
-        "Battery drains too quickly during video calls. Otherwise decent phone.",
-        "Customer service went above and beyond to help with my problem.",
-        "Overpriced for what you get. Battery life and camera are just average.",
-        "The camera's night mode is incredible. Battery easily lasts a full day.",
-        "Shipping took too long but the product quality makes up for it.",
-        "Customer service response time needs improvement. Phone is good though.",
-        "Best camera I've used on a phone. Battery life is surprisingly good too."
-    ]
+# Load reviews from CSV file
+print("📁 Loading reviews from CSV file...")
+csv_path = "src/data/raw/sample_reviews.csv"
+df = pd.read_csv(csv_path)
+sample_reviews = df['review_text'].tolist()
+print(f"✅ Loaded {len(sample_reviews)} reviews from {csv_path}")
 
 processed_reviews = []
 for i, review in enumerate(sample_reviews):
