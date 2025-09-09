@@ -1,7 +1,3 @@
-"""
-Example script showing how to use the modular functions directly.
-"""
-
 import sys
 import os
 import subprocess

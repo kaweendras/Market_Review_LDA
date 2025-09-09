@@ -1,7 +1,3 @@
-"""
-LDA model training module for Market Review analysis.
-"""
-
 import json
 import os
 from gensim import corpora

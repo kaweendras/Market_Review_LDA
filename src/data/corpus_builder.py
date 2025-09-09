@@ -1,7 +1,3 @@
-"""
-Data processing module for creating dictionary and corpus for LDA analysis.
-"""
-
 import json
 import os
 from gensim import corpora
