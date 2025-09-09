@@ -4,8 +4,7 @@
 
 ```
 Market_Review_LDA/
-├── main.py                    # Main entry point with CLI interface
-├── example_usage.py          # Example of using functions directly
+├── main.py                    # Main entry point with interactive pipeline
 ├── requirements.txt          # Python dependencies
 ├── train.py                  # LDA model training script
 ├── visualize.py             # Visualization script
@@ -19,51 +18,42 @@ Market_Review_LDA/
     │   ├── processed/          # Processed data files
     │   └── raw/               # Raw data files
     │       └── sample_reviews.csv
-    └── models/             # Saved models and artifacts
-        ├── corpus_metadata.json
-        ├── review_corpus.mm
-        └── review_dictionary.dict
+    ├── models/             # Saved models and artifacts
+    │   ├── corpus_metadata.json
+    │   ├── review_corpus.mm
+    │   └── review_dictionary.dict
+    ├── training/           # LDA training modules
+    │   ├── __init__.py
+    │   └── lda_trainer.py      # LDA model training functions
+    └── visualizations/     # Visualization modules
+        ├── __init__.py
+        └── visualizer.py       # Visualization and insights functions
 ```
 
 ## 🚀 Usage
 
 ### Command Line Interface
 
-The main.py script provides a comprehensive CLI for the entire pipeline:
+The main.py script provides an interactive pipeline for the entire LDA analysis process:
 
-#### Basic Usage
+#### Interactive Usage
 ```bash
-# Run preprocessing only
+# Run the complete interactive pipeline
 python main.py
-
-# Run preprocessing + corpus creation
-python main.py --corpus
-
-# Custom input file
-python main.py --input path/to/your/reviews.csv --corpus
-
-# Quiet mode
-python main.py --corpus --quiet
-
-# Custom dictionary filtering
-python main.py --corpus --no-below 1 --no-above 0.9 --keep-n 500
 ```
 
-#### All Options
-```bash
-python main.py --help
-```
+The script will guide you through 5 steps:
+1. **Text Preprocessing** - Process and clean the raw review text data
+2. **Dictionary and Corpus Creation** - Create dictionary and corpus from processed text
+3. **LDA Model Training** - Train the LDA model on the processed corpus
+4. **Visualizations & Marketing Insights** - Generate visualizations and extract insights
+5. **Open Generated Files** - Open the created visualizations and reports
 
-Options:
-- `--input, -i`: Path to input CSV file (default: src/data/raw/sample_reviews.csv)
-- `--output, -o`: Directory to save processed data (default: src/data/processed)
-- `--models-dir, -m`: Directory to save models (default: src/models)
-- `--top-words, -t`: Number of top words to analyze (default: 10)
-- `--corpus, -c`: Also create dictionary and corpus after preprocessing
-- `--no-below`: Dictionary filter - ignore words appearing in less than N documents (default: 2)
-- `--no-above`: Dictionary filter - ignore words appearing in more than N% of documents (default: 0.8)
-- `--keep-n`: Dictionary filter - keep only the N most frequent words (default: 1000)
-- `--quiet, -q`: Run in quiet mode with minimal output
+Each step requires user confirmation before proceeding, allowing you to:
+- Control the execution flow
+- Stop at any point if needed
+- Review intermediate results
+- Skip steps that have already been completed
 
 ### Function-based Usage
 
@@ -153,7 +143,7 @@ The old monolithic scripts (`analyse.py`, `data_processing.py`) have been refact
 
 ## 🎯 Next Steps
 
-1. Use `python main.py --corpus` to prepare your data
-2. Run `train.py` to train the LDA model
-3. Use `visualize.py` for analysis visualization
+1. Use `python main.py` to run the complete interactive pipeline
+2. Follow the guided steps for preprocessing, corpus creation, and LDA training
+3. Review the generated visualizations and marketing insights
 4. Extend the modules with additional functionality as needed
