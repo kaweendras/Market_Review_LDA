@@ -1,5 +1,7 @@
 import re
 import pandas as pd
+import os
+import json
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
@@ -59,6 +61,40 @@ for i, review in enumerate(sample_reviews):
 
 print(f"\n✅ Processed {len(processed_reviews)} reviews!")
 
+# Save processed data to the processed directory
+print("\n💾 Saving processed data...")
+processed_dir = "src/data/processed"
+os.makedirs(processed_dir, exist_ok=True)
+
+# Save processed reviews as JSON for easy loading later
+processed_data = {
+    'processed_reviews': processed_reviews,
+    'original_reviews': sample_reviews,
+    'preprocessing_stats': {
+        'total_reviews': len(processed_reviews),
+        'total_unique_words': len(set([word for review in processed_reviews for word in review])),
+        'total_words': sum(len(review) for review in processed_reviews)
+    }
+}
+
+processed_file_path = os.path.join(processed_dir, "processed_reviews.json")
+with open(processed_file_path, 'w', encoding='utf-8') as f:
+    json.dump(processed_data, f, indent=2, ensure_ascii=False)
+
+print(f"✅ Processed data saved to: {processed_file_path}")
+
+# Also save as CSV for easy viewing
+processed_df = pd.DataFrame({
+    'review_id': range(1, len(sample_reviews) + 1),
+    'original_text': sample_reviews,
+    'processed_tokens': [' '.join(tokens) for tokens in processed_reviews],
+    'token_count': [len(tokens) for tokens in processed_reviews]
+})
+
+csv_file_path = os.path.join(processed_dir, "processed_reviews.csv")
+processed_df.to_csv(csv_file_path, index=False, encoding='utf-8')
+print(f"✅ Processed data also saved as CSV: {csv_file_path}")
+
 # Let's analyze what words appear most frequently
 from collections import Counter
 
@@ -86,5 +122,6 @@ print("="*50)
 print("✅ Text preprocessing function created")
 print("✅ Sample reviews processed and cleaned")
 print("✅ Word frequency analysis completed")
+print("✅ Processed data saved to src/data/processed/")
 print("✅ Data ready for LDA modeling")
 print("\nType 'next' when you're ready for Step 3: Creating Dictionary and Corpus")
