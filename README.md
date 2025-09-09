@@ -38,17 +38,18 @@ The interactive pipeline will guide you through:
 
 The system generates comprehensive topic distribution visualizations showing how topics are distributed across your review dataset:
 
-![Topic Distribution](https://github.com/kaweendras/Market_Review_LDA/blob/main/sample_results/topic_distribution_chart.png?raw=true)
+![Topic Distribution](https://github.com/kaweendras/Market_Review_LDA/blob/main/sample_results/topic_distribution.png?raw=true)
 
 *Interactive bar chart showing the prevalence of each discovered topic*
 
-### LDA Visualization Dashboard
+### Topic Document Heatmap
 
-Advanced interactive visualization using pyLDAvis for exploring topic relationships and word associations:
+Interactive heatmap visualization showing the relationship between documents and topics, with color intensity indicating topic strength:
 
-![LDA Visualization](https://github.com/kaweendras/Market_Review_LDA/blob/main/sample_results/lda_visualization.png?raw=true)
+![Topic Document Heatmap](https://github.com/kaweendras/Market_Review_LDA/blob/main/sample_results/topic_document_heatmap.png?raw=true)
 
-*Interactive LDA visualization showing topic clusters and word relevance*
+*Interactive heatmap showing how topics are distributed across documents and their relative strength*
+
 
 ### Word Cloud Visualizations
 
