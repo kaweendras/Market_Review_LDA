@@ -4,6 +4,8 @@ Example script showing how to use the visualization functions directly.
 
 import sys
 import os
+import subprocess
+import platform
 
 # Add src to path for imports
 sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
@@ -85,6 +87,39 @@ def example_visualization_usage():
     return viz_results
 
 
+def open_generated_images(output_dir):
+    """Open generated images using the default system image viewer."""
+    
+    # List of image files to look for
+    image_files = [
+        "topic_distribution.png",
+        "topic_wordclouds.png", 
+        "topic_document_heatmap.png"
+    ]
+    
+    opened_files = []
+    
+    for image_file in image_files:
+        image_path = os.path.join(output_dir, image_file)
+        if os.path.exists(image_path):
+            try:
+                # Cross-platform way to open files
+                if platform.system() == "Windows":
+                    os.startfile(image_path)
+                elif platform.system() == "Darwin":  # macOS
+                    subprocess.run(["open", image_path])
+                else:  # Linux and others
+                    subprocess.run(["xdg-open", image_path])
+                opened_files.append(image_file)
+                print(f"📸 Opened: {image_file}")
+            except Exception as e:
+                print(f"❌ Could not open {image_file}: {e}")
+        else:
+            print(f"⚠️  Image not found: {image_file}")
+    
+    return opened_files
+
+
 if __name__ == "__main__":
     try:
         results = example_visualization_usage()
@@ -92,6 +127,16 @@ if __name__ == "__main__":
         print(f"📂 Check the output directories for generated files:")
         print(f"   - Main results: {results['file_paths']['output_directory']}")
         print(f"   - Custom files: src/custom_visualizations/")
+        
+        # Open generated images automatically
+        print(f"\n🖼️  Opening generated images...")
+        opened_files = open_generated_images(results['file_paths']['output_directory'])
+        
+        if opened_files:
+            print(f"✅ Successfully opened {len(opened_files)} image(s)")
+        else:
+            print(f"⚠️  No images were opened. Check if files exist in {results['file_paths']['output_directory']}")
+            
     except Exception as e:
         print(f"❌ Error: {e}")
         print("Make sure you have run the LDA training pipeline first!")
