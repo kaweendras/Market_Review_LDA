@@ -232,20 +232,38 @@ def example_usage():
 
 
 if __name__ == "__main__":
-    preprocessing_results, corpus_results, lda_results, viz_results = example_usage()
-    print(f"\n✅ Example completed successfully!")
-    print(f"📊 Final Summary:")
-    print(f"   - Processed {len(preprocessing_results['processed_reviews'])} reviews")
-    print(f"   - Created dictionary with {len(corpus_results['dictionary'])} words")
-    print(f"   - Trained LDA model with {len(lda_results['topic_summaries'])} topics")
-    print(f"   - Generated {len(viz_results['file_paths'])} visualization files")
-    print(f"   - Model saved to: {lda_results['file_paths']['model_path']}")
-    print(f"   - Results saved to: {lda_results['file_paths']['results_path']}")
-    print(f"   - Visualizations saved to: {viz_results['file_paths']['output_directory']}")
-    print(f"\n🚀 NEXT STEPS:")
-    print(f"   - Review marketing report: {viz_results['file_paths']['marketing_report']}")
-    print(f"   - Check visualizations in: {viz_results['file_paths']['output_directory']}")
-    print(f"   - Use the classification pipeline for new reviews")
-    
-    # Optionally, open the visualization files
-    open_visualization_files(viz_results)
+    try:
+        preprocessing_results, corpus_results, lda_results, viz_results = example_usage()
+        
+        if not all([preprocessing_results, corpus_results, lda_results, viz_results]):
+            print("\n⚠️  Some steps were skipped or cancelled.")
+            if viz_results is None:
+                print("❌ Visualization step was not completed - no files to open.")
+                exit()
+        
+        print(f"\n✅ Example completed successfully!")
+        print(f"📊 Final Summary:")
+        print(f"   - Processed {len(preprocessing_results['processed_reviews'])} reviews")
+        print(f"   - Created dictionary with {len(corpus_results['dictionary'])} words")
+        print(f"   - Trained LDA model with {len(lda_results['topic_summaries'])} topics")
+        print(f"   - Generated {len(viz_results['file_paths'])} visualization files")
+        print(f"   - Model saved to: {lda_results['file_paths']['model_path']}")
+        print(f"   - Results saved to: {lda_results['file_paths']['results_path']}")
+        print(f"   - Visualizations saved to: {viz_results['file_paths']['output_directory']}")
+        print(f"\n🚀 NEXT STEPS:")
+        print(f"   - Review marketing report: {viz_results['file_paths']['marketing_report']}")
+        print(f"   - Check visualizations in: {viz_results['file_paths']['output_directory']}")
+        print(f"   - Use the classification pipeline for new reviews")
+        
+        # Final step: Open the visualization files
+        if not get_user_confirmation(
+            "Step 5: Open Generated Files",
+            "Open the created visualizations and marketing report files"
+        ):
+            print("📁 Files remain available for manual viewing later.")
+        else:
+            open_visualization_files(viz_results)
+            
+    except Exception as e:
+        print(f"\n❌ An error occurred: {e}")
+        print("🔧 Please check the error and try again.")
