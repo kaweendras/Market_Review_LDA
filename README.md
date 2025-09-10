@@ -231,5 +231,3 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 **kaweendras**
 
 ---
-
-**Ready to discover hidden insights in your customer reviews?** Run `python main.py` and let the analysis begin! 🚀
