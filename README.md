@@ -205,25 +205,6 @@ def process_reviews_pipeline(csv_path, output_dir, top_words=10, verbose=True):
     """
 ```
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🙏 Acknowledgments
-
-- Built with [Gensim](https://radimrehurek.com/gensim/) for LDA modeling
-- Visualizations powered by [pyLDAvis](https://github.com/bmabey/pyLDAvis)
-- Text processing using [NLTK](https://www.nltk.org/)
-- Charts created with [matplotlib](https://matplotlib.org/) and [seaborn](https://seaborn.pydata.org/)
-
 ---
 
 ## 👨‍💻 Author
